@@ -2,25 +2,28 @@ LICENSE AGREEMENT
 
 1. DEFINITIONS USED IN THE AGREEMENT 
 1.1. "Documentation" refers to all user guides, administrator's guide, and other technical documentation provided to the End User pertaining to the Product and its operations.
-1.2. "Product" refers to any version of the software application, including Arenadata Analytical DB (ADB); Arenadata Hadoop Platform (ADH); Arenadata Streaming Platform (ADS); Arenadata QuickMarts (ADQM); Arenadata Postgres (ADPG). These are built based on the open-source software managed by Apache Software Foundation, licensed in compliance with the terms of Apache 2.0 license (http://www.apache.org/licenses/LICENSE-2.0).
+1.2. "Product" shall mean any version of computer software, i. e. Arenadata Analytical DB (ADB); Arenadata Hadoop Platform (ADH); Arenadata Streaming Platform (ADS); Arenadata QuickMarts (ADQM); Arenadata Postgres (ADPG) and any other proprietary software products of Arenadata Software LLC, including those based on open-source software.
 1.3. "Intellectual property" refers to all systems, methods, algorithms, structures, libraries, applications (supplementary software), components/elements of visual branding of the Product (texts, fonts, images, design, and composition of the elements), all modules, trademarks, and other constituent elements of the Product.
 1.4. "Owner" refers to Arenadata Software, 129085. MOSCOW OSTANKINSKY MUNICIPAL DISTRICT, GODOVIKOV STR., BLD.9, STR.17, FLOOR 8, PREM.4.
 1.5. "End User" refers to a legal/natural entity to whom the Software Use Rights (non-exclusive license) are granted for their own use, but not for resale or sublicensing. 
 1.6. "Software Distribution" refers to a set of Product files that includes an installer file, user instructions, and the necessary additional components.
-
+ 
 2. EXCLUSIVE INTELLECTUAL PROPERTY RIGHTS 
 2.1. The exclusive rights to the Product and its intellectual property in the Product shall be reserved by the Owner. These exclusive rights shall be protected in compliance with the valid laws of the Russian Federation and the provisions of this Agreement.
 2.2. Any use of the Product in violation of the provisions of this Agreement shall be deemed a violation of the laws of the Russian Federation and shall constitute sufficient grounds to deprive the End User of the rights granted in relation to the Product.
 2.3. The Owner shall assist the End User in defending against any claims of third parties contesting the right of the End User to use the Product. In the event of legal action, the End User must immediately inform the Owner of any claims made by third parties, and provide all necessary information related to the action.
 2.4. The Owner hereby represents that at the time the Software Use Rights are granted to the End User, the Owner is not aware of any rights of third parties that could have been violated as a result of granting the Software Use Rights to the End User.
 2.5. During the term of this Agreement, the Owner shall be obliged to refrain from any actions that may hinder the End User's exercise of the right to use the Product within the scope stipulated herein.
-
+ 
 3. SUBJECT OF THE AGREEMENT
 3.1. The Owner shall grant to the End User a non-exclusive license to use the Product within the scope and by means stipulated herein. The right to use the Product shall be granted to the End User subject to End User's compliance with all technical requirements listed in the technical and user documentation, as well as all conditions and limitations stipulated herein. The Product description and usage instructions shall form a part of the Product, or may be provided to the End User on paper upon request. 
-3.2. The terms of payment for the right to use the Product shall be established by supplementary agreements.
 
 4. SCOPE OF THE GRANTED RIGHTS AND ALLOWED USE
-4.1.  The Owner shall grant the End User the right to use the Product (non-exclusive license) by reproduction, including writing into the computer memory, installation and launching of the Product on the respective number of processor cores. The number of processor cores shall be determined in a supplementary agreement with the Owner.
+4.1.  The Owner shall grant the right to use the Product to the End User free of charge (a non-exclusive license) by reproducing and storing in computer memory, installing and running the Product subject to the following restrictions in terms of single cluster size for reproduction of the Product:
+- For Arenadata Analytical DB (ADB) — no more than ten (10) segment hosts per cluster,
+- For Arenadata Hadoop Platform (ADH) — no more than ten (10) data nodes per cluster,
+- For Arenadata QuickMarts (ADQM) — no more than 4 (four) nodes per cluster,
+- For Arenadata Streaming Platform (ADS) — no more than 3 (three) nodes per cluster.
 4.2. The End User shall have the right to copy the Product exclusively for backup and archiving purposes.
 4.3. The right to use the Product acquired by the End User shall be subject to limitations:
 4.3.1. The use the Product or its related documentation for the purposes other than those authorized herein, including using the Product to provide services to third parties or copying (other than as stipulated in clause 4.2 of the Agreement), transferring, disclosing, or making the Product available to any third parties in any other way, is strictly prohibited.
@@ -30,11 +33,9 @@ LICENSE AGREEMENT
 4.3.5. Transferring activation and access codes (or copies thereof) to allow third parties to use the Product is prohibited.
 4.3.6. Using the Product on behalf of another person is prohibited.
 4.3.7. Engaging in any acts relating to the Product that violate the Russian and international legal acts as to copyright, trade secrets, and software usage is prohibited.
-4.4. The right to use the Product acquired by the End User shall be valid within the period specified in a separate agreement between the Owner and/or the Owner’s Partner and the End User within the territory of the Russian Federation.
-4.5. The End User may use the Product as an individual software package or combine it with their newly developed or existing software, if such use is technically feasible, without the End User's right to distribute or sell copies of the resulting (combined) software, or grant third parties the right to use it by any means. The right specified in this clause does not grant the rights to rework (modify) the Product.
-4.5.1. At the same time, the Owner shall not guarantee the compatibility of the Product with any other End User's software and shall not be responsible for their correct joint operation.
-4.6. If, under the terms of the agreement with the Owner, the license is granted for use of the Product in a particular environment(s) (development, production, testing, and/or other), the End User shall be entitled to use the Product only in such environments(s).
-
+4.3.8. It shall be prohibited to use the Product in production environments.
+4.3.9. It shall be prohibited to use the Product for commercial gain.
+ 
 5. DELIVERY PROCEDURES
 5.1. The Software Distribution to install the Product shall be delivered to the End User electronically by the Owner, unless otherwise agreed upon between the Parties. 
 5.2. Any amendments, additions, and other modifications related to delivery, activation, or granting access to the Products shall be performed exclusively and directly by the Owner.
@@ -42,12 +43,11 @@ LICENSE AGREEMENT
 5.3.1. Replacement of the End User to another person may only be made by the Owner upon a written notice from the current End User. The transfer must cover the entire Product (including all component parts, printed materials, and updates).
 5.3.2. The new End User that obtains the Product as a result of replacement shall be obliged to agree to all the terms hereof, including the obligation not to transfer the right to use the Product to third parties. A written acceptance of this condition is to be delivered to the address of the Owner.
 5.3.3. Upon transferring the rights to the Product to another person (new End User), the End User hereunder shall be obliged to destroy all backup copies of the Product so transferred, if applicable.
-
+ 
 6. GUARANTEE OBLIGATIONS
 6.1. The Owner shall guarantee that the transfer of the rights to the Product does not violate any copyrights, related rights, or any other rights of third parties. 
 6.2. The Product with certain Use Rights specified in this Agreement shall be delivered "as is" with no guarantees from the Owner as to applicability to a particular purpose or compatibility with other software. The Owner shall not be liable for any discrepancies between the results of using the Product and the End User's expectations or for any issues arising from ambiguous interpretation of the Documentation.
 6.3. The Owner shall not provide any warranties regarding the software and hardware of other vendors that may be provided to the End User together with the Product or included in the Product, or with which the Product may be delivered.
-6.4. The Owner may provide maintenance services based on separate agreements concluded by the End User with the Owner in compliance with the valid maintenance terms of the Owner.
 
 7. RESPONSIBILITY
 7.1. The Owner shall not bear responsibility and shall not indemnify for any direct or indirect damages, including lost opportunities and loss of confidential information of the End User, caused by a Product operation infringement and/or errors due to wrongful acts by the employees of the End User or third parties, as well as hardware faults and electrical equipment breakdowns.
@@ -55,7 +55,6 @@ LICENSE AGREEMENT
 7.3. The Owner shall not be obliged to provide maintenance, support, updates, extensions, or changes of the Product, unless otherwise specified in a separate agreement with the Owner.
 7.4. The End User shall be responsible for indemnifying any losses caused by the use of the Product, including information it contains or information generated by the Product, as well as losses arising from communication (or inability to or with properly communicate) with any other hardware, system, or software provided by the Owner and/or a third party.
 7.5. The End User undertakes to indemnify the Owner for any expenses, including legal costs and representatives' fees, and to defend the Owner from any claims, disputes, legal actions, losses, damages, expenses, costs, and any other liability arising out if wrongful or illegal use of the Product (including by a party related to the End User, as well as the persons authorized by the End User to act expressly in violation of the terms hereof and the applicable laws).
-7.6. Upon expiration of the term for which the End User has been granted a non-exclusive license, the End User shall be obliged, within 1 (one) business day, to stop using the Product and the Documentation, remove all copies of the Product from the technical devices, and destroy any copies of the Product and copies of the Documentation made with the consent of the Owner.
 
 8. SPECIAL SUPPLEMENTARY TERMS
 8.1. Use Rights shall be valid only if the Product is genuine. The End User shall be fully responsible for ensuring the authenticity of the data submitted to the Owner. The End User undertakes to notify the Owner of any discovered inaccuracies in the submitted data and any changes to the details.
@@ -64,7 +63,7 @@ LICENSE AGREEMENT
 8.4. The Product may include software elements covered by open licenses of the third parties. The End User shall accept and acknowledge the terms of such open licenses and shall acknowledge that the third party disclaims any representations and warranties regarding the products or parts thereof, and shall not assume any responsibility for any claims that may arise relating to the products, their use by the End User, or inability to use them. 
 8.5. If the End User becomes aware of any information indicating violation of the Owner's intellectual rights (such as illegal resale of the Product, links to websites with pirated content), the End User is kindly asked to submit the specified information to: info@arenadata.io.
 8.6. Additional information on any questions in relation to this Agreement, and other explanations as to the use of the Product the End User may request at: info@arenadata.io. 
-
+ 
 9. TERMINATION OF AGREEMENT
 9.1. The term of this Agreement shall start from the date of signing by the receiving party and shall remain valid for the period of the Use Rights to the Product, unless the Use Rights are terminated due to violation by the End User of any provision hereof. In case of a violation of the provisions hereof, the Owner may immediately terminate this Agreement unilaterally.
 9.2. Upon termination of this Agreement, all rights granted to the End User herein shall be terminated immediately, and the End User shall be obliged to promptly return all confidential information to the Owner and subsequently destroy all confidential information that cannot be returned.
